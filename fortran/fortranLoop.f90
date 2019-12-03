@@ -53,6 +53,7 @@ program fortranLoop
   
   open(1, file='fortranLoopTime.dat')
   write(1, *) time
+  close(1)
   
 end program fortranLoop
 ! ==============================================================================
